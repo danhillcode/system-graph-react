@@ -13,8 +13,8 @@ interface CustomNodeData {
 const CustomNode: React.FC<NodeProps<CustomNodeData>> = ({ data, selected }) => {
   const { label, color, shape } = data;
 
-  const getShapeStyle = () => {
-    const baseStyle = {
+  const getShapeStyle = (): React.CSSProperties => {
+    const baseStyle: React.CSSProperties = {
       backgroundColor: color,
       border: selected ? '3px solid #3b82f6' : '2px solid #1e40af',
       borderRadius: shape === 'circle' ? '50%' : shape === 'diamond' ? '0' : '8px',
@@ -30,11 +30,11 @@ const CustomNode: React.FC<NodeProps<CustomNodeData>> = ({ data, selected }) => 
     return baseStyle;
   };
 
-  const getTextStyle = () => ({
+  const getTextStyle = (): React.CSSProperties => ({
     color: '#1f2937',
     fontWeight: 'bold',
     fontSize: '12px',
-    textAlign: 'center' as const,
+    textAlign: 'center',
     transform: shape === 'diamond' ? 'rotate(-45deg)' : 'none',
     zIndex: 1,
   });
