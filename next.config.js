@@ -6,13 +6,7 @@ const nextConfig = {
     unoptimized: true
   },
   // Enable static export for easy deployment
-  distDir: 'out',
-  // Explicitly set the root directory to fix deployment issues
-  experimental: {
-    turbo: {
-      root: process.cwd()
-    }
-  }
+  distDir: 'out'
 }
 
 module.exports = nextConfig
