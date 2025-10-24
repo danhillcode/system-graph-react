@@ -1,0 +1,439 @@
+{
+  "nodes": [
+    {
+      "id": "data_representation",
+      "type": "custom",
+      "position": { "x": 100, "y": 100 },
+      "data": {
+        "label": "Data Representation",
+        "color": "lightblue",
+        "shape": "box",
+        "layer": "structures",
+        "topics": ["Binary", "Hexadecimal", "ASCII", "Unicode", "Images", "Sound"],
+        "real_world_examples": [],
+        "attributes": { "type": "foundation", "critical": true, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "computer_architecture",
+      "type": "custom",
+      "position": { "x": 300, "y": 100 },
+      "data": {
+        "label": "Computer Architecture",
+        "color": "lightgreen",
+        "shape": "box",
+        "layer": "structures",
+        "topics": ["CPU", "Memory", "Storage", "Input/Output", "Buses"],
+        "real_world_examples": [],
+        "attributes": { "type": "hardware", "critical": true, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "networks",
+      "type": "custom",
+      "position": { "x": 500, "y": 100 },
+      "data": {
+        "label": "Networks",
+        "color": "lightcoral",
+        "shape": "box",
+        "layer": "patterns",
+        "topics": ["LAN", "WAN", "Protocols", "Security", "Internet"],
+        "real_world_examples": [],
+        "attributes": { "type": "communication", "critical": true, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "programming",
+      "type": "custom",
+      "position": { "x": 100, "y": 300 },
+      "data": {
+        "label": "Programming",
+        "color": "lightyellow",
+        "shape": "diamond",
+        "layer": "mental_models",
+        "topics": ["Algorithms", "Pseudocode", "Flowcharts", "Variables", "Control Structures"],
+        "real_world_examples": [],
+        "attributes": { "type": "software", "critical": true, "difficulty": "high" }
+      }
+    },
+    {
+      "id": "databases",
+      "type": "custom",
+      "position": { "x": 300, "y": 300 },
+      "data": {
+        "label": "Databases",
+        "color": "lightpink",
+        "shape": "box",
+        "layer": "structures",
+        "topics": ["Tables", "Records", "Fields", "Primary Keys", "Queries", "SQL"],
+        "real_world_examples": [],
+        "attributes": { "type": "data_management", "critical": true, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "security",
+      "type": "custom",
+      "position": { "x": 500, "y": 300 },
+      "data": {
+        "label": "Security",
+        "color": "lightpurple",
+        "shape": "diamond",
+        "layer": "mental_models",
+        "topics": ["Encryption", "Authentication", "Firewalls", "Malware", "Phishing"],
+        "real_world_examples": [],
+        "attributes": { "type": "protection", "critical": true, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "algorithms",
+      "type": "custom",
+      "position": { "x": 100, "y": 500 },
+      "data": {
+        "label": "Algorithms",
+        "color": "lightcyan",
+        "shape": "circle",
+        "layer": "mental_models",
+        "topics": ["Searching", "Sorting", "Linear Search", "Binary Search", "Bubble Sort"],
+        "real_world_examples": [],
+        "attributes": { "type": "problem_solving", "critical": true, "difficulty": "high" }
+      }
+    },
+    {
+      "id": "software_development",
+      "type": "custom",
+      "position": { "x": 300, "y": 500 },
+      "data": {
+        "label": "Software Development",
+        "color": "lightorange",
+        "shape": "box",
+        "layer": "patterns",
+        "topics": ["SDLC", "Testing", "Debugging", "Documentation", "Version Control"],
+        "real_world_examples": [],
+        "attributes": { "type": "process", "critical": true, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "ethics",
+      "type": "custom",
+      "position": { "x": 500, "y": 500 },
+      "data": {
+        "label": "Ethics & Legal",
+        "color": "lightgray",
+        "shape": "diamond",
+        "layer": "mental_models",
+        "topics": ["Copyright", "Privacy", "Digital Divide", "Environmental Impact"],
+        "real_world_examples": [],
+        "attributes": { "type": "social", "critical": true, "difficulty": "low" }
+      }
+    },
+    {
+      "id": "binary_arithmetic",
+      "type": "custom",
+      "position": { "x": 100, "y": 700 },
+      "data": {
+        "label": "Binary Arithmetic",
+        "color": "lightblue",
+        "shape": "circle",
+        "layer": "events",
+        "topics": ["Addition", "Subtraction", "Two's Complement", "Overflow"],
+        "real_world_examples": [],
+        "attributes": { "type": "mathematical", "critical": true, "difficulty": "high" }
+      }
+    },
+    {
+      "id": "operating_systems",
+      "type": "custom",
+      "position": { "x": 300, "y": 700 },
+      "data": {
+        "label": "Operating Systems",
+        "color": "lightgreen",
+        "shape": "box",
+        "layer": "structures",
+        "topics": ["Process Management", "Memory Management", "File Systems", "User Interface"],
+        "real_world_examples": [],
+        "attributes": { "type": "system_software", "critical": true, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "web_technologies",
+      "type": "custom",
+      "position": { "x": 500, "y": 700 },
+      "data": {
+        "label": "Web Technologies",
+        "color": "lightcoral",
+        "shape": "diamond",
+        "layer": "patterns",
+        "topics": ["HTML", "CSS", "JavaScript", "HTTP", "Web Security"],
+        "real_world_examples": [],
+        "attributes": { "type": "web_development", "critical": false, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "artificial_intelligence",
+      "type": "custom",
+      "position": { "x": 100, "y": 900 },
+      "data": {
+        "label": "AI & Machine Learning",
+        "color": "lightpurple",
+        "shape": "diamond",
+        "layer": "mental_models",
+        "topics": ["Neural Networks", "Machine Learning", "Expert Systems", "Robotics"],
+        "real_world_examples": [],
+        "attributes": { "type": "emerging_tech", "critical": false, "difficulty": "high" }
+      }
+    },
+    {
+      "id": "cybersecurity",
+      "type": "custom",
+      "position": { "x": 300, "y": 900 },
+      "data": {
+        "label": "Cybersecurity",
+        "color": "lightred",
+        "shape": "box",
+        "layer": "mental_models",
+        "topics": ["Threats", "Vulnerabilities", "Risk Assessment", "Incident Response"],
+        "real_world_examples": [],
+        "attributes": { "type": "security", "critical": true, "difficulty": "high" }
+      }
+    },
+    {
+      "id": "cloud_computing",
+      "type": "custom",
+      "position": { "x": 500, "y": 900 },
+      "data": {
+        "label": "Cloud Computing",
+        "color": "lightcyan",
+        "shape": "circle",
+        "layer": "patterns",
+        "topics": ["SaaS", "PaaS", "IaaS", "Virtualization", "Scalability"],
+        "real_world_examples": [],
+        "attributes": { "type": "infrastructure", "critical": false, "difficulty": "medium" }
+      }
+    },
+    {
+      "id": "student_examples",
+      "type": "custom",
+      "position": { "x": 700, "y": 500 },
+      "data": {
+        "label": "Student Examples",
+        "color": "lightyellow",
+        "shape": "diamond",
+        "layer": "events",
+        "topics": ["Real-world applications", "Case studies", "Industry examples"],
+        "real_world_examples": [],
+        "attributes": { "type": "collaborative", "critical": false, "difficulty": "low" }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "data_representation-computer_architecture",
+      "source": "data_representation",
+      "target": "computer_architecture",
+      "type": "smoothstep",
+      "data": { "type": "foundation_for", "relationship": "Data formats used by hardware" }
+    },
+    {
+      "id": "data_representation-programming",
+      "source": "data_representation",
+      "target": "programming",
+      "type": "smoothstep",
+      "data": { "type": "enables", "relationship": "Understanding data types in programming" }
+    },
+    {
+      "id": "data_representation-networks",
+      "source": "data_representation",
+      "target": "networks",
+      "type": "smoothstep",
+      "data": { "type": "transmits", "relationship": "Data formats sent over networks" }
+    },
+    {
+      "id": "computer_architecture-programming",
+      "source": "computer_architecture",
+      "target": "programming",
+      "type": "smoothstep",
+      "data": { "type": "runs_on", "relationship": "Programs execute on hardware" }
+    },
+    {
+      "id": "computer_architecture-networks",
+      "source": "computer_architecture",
+      "target": "networks",
+      "type": "smoothstep",
+      "data": { "type": "connects_via", "relationship": "Hardware enables network communication" }
+    },
+    {
+      "id": "programming-algorithms",
+      "source": "programming",
+      "target": "algorithms",
+      "type": "smoothstep",
+      "data": { "type": "implements", "relationship": "Algorithms are coded in programs" }
+    },
+    {
+      "id": "programming-software_development",
+      "source": "programming",
+      "target": "software_development",
+      "type": "smoothstep",
+      "data": { "type": "part_of", "relationship": "Programming is part of software development" }
+    },
+    {
+      "id": "programming-databases",
+      "source": "programming",
+      "target": "databases",
+      "type": "smoothstep",
+      "data": { "type": "interacts_with", "relationship": "Programs query and manipulate databases" }
+    },
+    {
+      "id": "networks-security",
+      "source": "networks",
+      "target": "security",
+      "type": "smoothstep",
+      "data": { "type": "requires", "relationship": "Networks need security measures" }
+    },
+    {
+      "id": "databases-security",
+      "source": "databases",
+      "target": "security",
+      "type": "smoothstep",
+      "data": { "type": "protects", "relationship": "Security protects database information" }
+    },
+    {
+      "id": "algorithms-software_development",
+      "source": "algorithms",
+      "target": "software_development",
+      "type": "smoothstep",
+      "data": { "type": "guides", "relationship": "Algorithms guide software design" }
+    },
+    {
+      "id": "security-ethics",
+      "source": "security",
+      "target": "ethics",
+      "type": "smoothstep",
+      "data": { "type": "influences", "relationship": "Security considerations affect ethical decisions" }
+    },
+    {
+      "id": "data_representation-binary_arithmetic",
+      "source": "data_representation",
+      "target": "binary_arithmetic",
+      "type": "smoothstep",
+      "data": { "type": "uses", "relationship": "Binary arithmetic manipulates data representation" }
+    },
+    {
+      "id": "computer_architecture-operating_systems",
+      "source": "computer_architecture",
+      "target": "operating_systems",
+      "type": "smoothstep",
+      "data": { "type": "manages", "relationship": "OS manages hardware resources" }
+    },
+    {
+      "id": "networks-web_technologies",
+      "source": "networks",
+      "target": "web_technologies",
+      "type": "smoothstep",
+      "data": { "type": "enables", "relationship": "Networks enable web technologies" }
+    },
+    {
+      "id": "programming-artificial_intelligence",
+      "source": "programming",
+      "target": "artificial_intelligence",
+      "type": "smoothstep",
+      "data": { "type": "implements", "relationship": "AI algorithms are programmed" }
+    },
+    {
+      "id": "security-cybersecurity",
+      "source": "security",
+      "target": "cybersecurity",
+      "type": "smoothstep",
+      "data": { "type": "expands_to", "relationship": "Cybersecurity is advanced security" }
+    },
+    {
+      "id": "networks-cloud_computing",
+      "source": "networks",
+      "target": "cloud_computing",
+      "type": "smoothstep",
+      "data": { "type": "enables", "relationship": "Networks enable cloud computing" }
+    },
+    {
+      "id": "student_examples-data_representation",
+      "source": "student_examples",
+      "target": "data_representation",
+      "type": "smoothstep",
+      "data": { "type": "provides_examples_for", "relationship": "Real-world data representation examples" }
+    },
+    {
+      "id": "student_examples-programming",
+      "source": "student_examples",
+      "target": "programming",
+      "type": "smoothstep",
+      "data": { "type": "provides_examples_for", "relationship": "Real-world programming applications" }
+    },
+    {
+      "id": "student_examples-networks",
+      "source": "student_examples",
+      "target": "networks",
+      "type": "smoothstep",
+      "data": { "type": "provides_examples_for", "relationship": "Real-world network examples" }
+    },
+    {
+      "id": "student_examples-security",
+      "source": "student_examples",
+      "target": "security",
+      "type": "smoothstep",
+      "data": { "type": "provides_examples_for", "relationship": "Real-world security examples" }
+    },
+    {
+      "id": "student_examples-artificial_intelligence",
+      "source": "student_examples",
+      "target": "artificial_intelligence",
+      "type": "smoothstep",
+      "data": { "type": "provides_examples_for", "relationship": "Real-world AI applications" }
+    }
+  ],
+  "metadata": {
+    "savedAt": "2024-10-23T20:15:00.000Z",
+    "version": "2.0",
+    "description": "IGCSE Computer Science Curriculum Map with Real-world Examples",
+    "curriculum": "IGCSE Computer Science",
+    "level": "Secondary Education",
+    "features": [
+      "curriculum_mapping",
+      "topic_connections",
+      "real_world_examples",
+      "student_collaboration",
+      "visual_learning"
+    ],
+    "layers": {
+      "events": "Specific topics and concepts",
+      "patterns": "Recurring themes and processes",
+      "structures": "Fundamental frameworks and systems",
+      "mental_models": "Advanced thinking and problem-solving"
+    },
+    "difficulty_levels": {
+      "low": ["Ethics & Legal"],
+      "medium": ["Data Representation", "Computer Architecture", "Networks", "Databases", "Security", "Software Development", "Operating Systems", "Web Technologies", "Cloud Computing"],
+      "high": ["Programming", "Algorithms", "Binary Arithmetic", "AI & Machine Learning", "Cybersecurity"]
+    },
+    "topic_categories": {
+      "foundation": ["Data Representation", "Computer Architecture", "Binary Arithmetic"],
+      "programming": ["Programming", "Algorithms", "Software Development"],
+      "systems": ["Operating Systems", "Networks", "Databases"],
+      "security": ["Security", "Cybersecurity"],
+      "emerging": ["AI & Machine Learning", "Cloud Computing", "Web Technologies"],
+      "social": ["Ethics & Legal"],
+      "collaborative": ["Student Examples"]
+    },
+    "learning_objectives": {
+      "understand": "Core concepts and principles",
+      "apply": "Knowledge to solve problems",
+      "analyze": "Relationships between topics",
+      "evaluate": "Real-world applications",
+      "create": "New examples and connections"
+    },
+    "assessment_methods": [
+      "Written examinations",
+      "Practical programming tasks",
+      "Project-based learning",
+      "Real-world case studies",
+      "Peer collaboration"
+    ]
+  }
+}

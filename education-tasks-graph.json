@@ -1,0 +1,436 @@
+{
+  "nodes": [
+    {
+      "id": "flint_ai_training",
+      "type": "custom",
+      "position": { "x": 100, "y": 100 },
+      "data": {
+        "label": "Flint AI Training",
+        "color": "lightblue",
+        "shape": "box",
+        "layer": "events",
+        "deadline": "December (leaders), January (early adopters)",
+        "duration": "6-8 hours",
+        "success_criteria": "Training completed by deadline; 10 early identifiers trained",
+        "attributes": { "type": "training", "critical": true, "priority": "high" }
+      }
+    },
+    {
+      "id": "microbit_scheme",
+      "type": "custom",
+      "position": { "x": 300, "y": 100 },
+      "data": {
+        "label": "Micro:bit Scheme of Work",
+        "color": "lightgreen",
+        "shape": "box",
+        "layer": "structures",
+        "deadline": "Term 1 planning, rollout this year",
+        "success_criteria": "Scheme of work produced and shared; improved KS2-KS3 transition",
+        "attributes": { "type": "curriculum", "critical": true, "priority": "high" }
+      }
+    },
+    {
+      "id": "curriculum_progression",
+      "type": "custom",
+      "position": { "x": 500, "y": 100 },
+      "data": {
+        "label": "Curriculum Progression & Digital Dimensions",
+        "color": "lightyellow",
+        "shape": "diamond",
+        "layer": "mental_models",
+        "deadline": "Ongoing - first draft this academic year",
+        "success_criteria": "Progression documents updated with digital learning dimensions",
+        "attributes": { "type": "curriculum", "critical": true, "priority": "medium" }
+      }
+    },
+    {
+      "id": "digital_apps_booklet",
+      "type": "custom",
+      "position": { "x": 100, "y": 300 },
+      "data": {
+        "label": "Digital Apps Booklet",
+        "color": "lightpink",
+        "shape": "circle",
+        "layer": "events",
+        "deadline": "Ongoing",
+        "success_criteria": "Digital apps booklet shared with all staff",
+        "attributes": { "type": "resource", "critical": false, "priority": "medium" }
+      }
+    },
+    {
+      "id": "minecraft_challenge",
+      "type": "custom",
+      "position": { "x": 300, "y": 300 },
+      "data": {
+        "label": "Online Minecraft Education Challenge",
+        "color": "lightcoral",
+        "shape": "box",
+        "layer": "events",
+        "deadline": "Launch this academic year",
+        "success_criteria": "Minecraft challenge launched; increased student participation",
+        "attributes": { "type": "collaboration", "critical": true, "priority": "high" }
+      }
+    },
+    {
+      "id": "microbit_competition",
+      "type": "custom",
+      "position": { "x": 500, "y": 300 },
+      "data": {
+        "label": "Primary Micro:bit Competition",
+        "color": "lightgreen",
+        "shape": "diamond",
+        "layer": "events",
+        "deadline": "Launch alongside Minecraft project",
+        "success_criteria": "Primary Micro:bit competition successfully completed with other schools",
+        "attributes": { "type": "collaboration", "critical": true, "priority": "high" }
+      }
+    },
+    {
+      "id": "coding_collaboration",
+      "type": "custom",
+      "position": { "x": 100, "y": 500 },
+      "data": {
+        "label": "New Coding Collaboration Project",
+        "color": "lightcyan",
+        "shape": "box",
+        "layer": "patterns",
+        "deadline": "By end of academic year",
+        "success_criteria": "Third coding collaboration project established",
+        "attributes": { "type": "collaboration", "critical": false, "priority": "medium" }
+      }
+    },
+    {
+      "id": "digital_wellbeing",
+      "type": "custom",
+      "position": { "x": 300, "y": 500 },
+      "data": {
+        "label": "Digital Wellbeing & Safety",
+        "color": "lightpurple",
+        "shape": "circle",
+        "layer": "mental_models",
+        "deadline": "Develop plan this year",
+        "success_criteria": "Digital wellbeing curriculum mapped; dashboards tested; recognition applied",
+        "attributes": { "type": "safety", "critical": true, "priority": "high" }
+      }
+    },
+    {
+      "id": "ai_policy",
+      "type": "custom",
+      "position": { "x": 500, "y": 500 },
+      "data": {
+        "label": "AI Policy and Maturity Scale",
+        "color": "lightorange",
+        "shape": "diamond",
+        "layer": "mental_models",
+        "deadline": "Meet after half term to check progress",
+        "success_criteria": "AI Policy drafted and reviewed; Maturity Scale established",
+        "attributes": { "type": "policy", "critical": true, "priority": "high" }
+      }
+    },
+    {
+      "id": "robotics_room",
+      "type": "custom",
+      "position": { "x": 100, "y": 700 },
+      "data": {
+        "label": "Robotics Room Setup",
+        "color": "lightgray",
+        "shape": "box",
+        "layer": "structures",
+        "deadline": "Ready as soon as possible",
+        "success_criteria": "Robotics room established and in use",
+        "attributes": { "type": "infrastructure", "critical": true, "priority": "high" }
+      }
+    },
+    {
+      "id": "cindy",
+      "type": "custom",
+      "position": { "x": 700, "y": 100 },
+      "data": {
+        "label": "Cindy",
+        "color": "lightpink",
+        "shape": "circle",
+        "layer": "events",
+        "role": "Project Lead",
+        "workload": "High",
+        "attributes": { "type": "person", "department": "leadership" }
+      }
+    },
+    {
+      "id": "dan",
+      "type": "custom",
+      "position": { "x": 700, "y": 200 },
+      "data": {
+        "label": "Dan",
+        "color": "lightblue",
+        "shape": "circle",
+        "layer": "events",
+        "role": "Tech Lead",
+        "workload": "High",
+        "attributes": { "type": "person", "department": "technology" }
+      }
+    },
+    {
+      "id": "keith",
+      "type": "custom",
+      "position": { "x": 700, "y": 300 },
+      "data": {
+        "label": "Keith",
+        "color": "lightgreen",
+        "shape": "circle",
+        "layer": "events",
+        "role": "Curriculum Lead",
+        "workload": "Medium",
+        "attributes": { "type": "person", "department": "curriculum" }
+      }
+    },
+    {
+      "id": "faye",
+      "type": "custom",
+      "position": { "x": 700, "y": 400 },
+      "data": {
+        "label": "Faye",
+        "color": "lightyellow",
+        "shape": "circle",
+        "layer": "events",
+        "role": "Primary Lead",
+        "workload": "Medium",
+        "attributes": { "type": "person", "department": "primary" }
+      }
+    },
+    {
+      "id": "laura",
+      "type": "custom",
+      "position": { "x": 700, "y": 500 },
+      "data": {
+        "label": "Laura",
+        "color": "lightpurple",
+        "shape": "circle",
+        "layer": "events",
+        "role": "Secondary Lead",
+        "workload": "Medium",
+        "attributes": { "type": "person", "department": "secondary" }
+      }
+    },
+    {
+      "id": "success_metrics",
+      "type": "custom",
+      "position": { "x": 300, "y": 700 },
+      "data": {
+        "label": "Success Metrics",
+        "color": "lightgreen",
+        "shape": "diamond",
+        "layer": "mental_models",
+        "metrics": [
+          "Training completion rates",
+          "Student participation levels",
+          "Curriculum integration success",
+          "Collaboration project outcomes"
+        ],
+        "attributes": { "type": "measurement", "critical": true }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "flint-cindy",
+      "source": "flint_ai_training",
+      "target": "cindy",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "leadership" }
+    },
+    {
+      "id": "flint-dan",
+      "source": "flint_ai_training",
+      "target": "dan",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "implementation" }
+    },
+    {
+      "id": "microbit-keith",
+      "source": "microbit_scheme",
+      "target": "keith",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "curriculum" }
+    },
+    {
+      "id": "microbit-cindy",
+      "source": "microbit_scheme",
+      "target": "cindy",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "coordination" }
+    },
+    {
+      "id": "curriculum-cindy",
+      "source": "curriculum_progression",
+      "target": "cindy",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "leadership" }
+    },
+    {
+      "id": "apps-dan",
+      "source": "digital_apps_booklet",
+      "target": "dan",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "implementation" }
+    },
+    {
+      "id": "minecraft-cindy",
+      "source": "minecraft_challenge",
+      "target": "cindy",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "coordination" }
+    },
+    {
+      "id": "microbit_comp-keith",
+      "source": "microbit_competition",
+      "target": "keith",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "curriculum" }
+    },
+    {
+      "id": "microbit_comp-cindy",
+      "source": "microbit_competition",
+      "target": "cindy",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "coordination" }
+    },
+    {
+      "id": "coding-dan",
+      "source": "coding_collaboration",
+      "target": "dan",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "leadership" }
+    },
+    {
+      "id": "wellbeing-faye",
+      "source": "digital_wellbeing",
+      "target": "faye",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "primary" }
+    },
+    {
+      "id": "wellbeing-cindy",
+      "source": "digital_wellbeing",
+      "target": "cindy",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "coordination" }
+    },
+    {
+      "id": "wellbeing-dan",
+      "source": "digital_wellbeing",
+      "target": "dan",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "secondary" }
+    },
+    {
+      "id": "wellbeing-laura",
+      "source": "digital_wellbeing",
+      "target": "laura",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "secondary" }
+    },
+    {
+      "id": "ai_policy-dan",
+      "source": "ai_policy",
+      "target": "dan",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "leadership" }
+    },
+    {
+      "id": "ai_policy-cindy",
+      "source": "ai_policy",
+      "target": "cindy",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "coordination" }
+    },
+    {
+      "id": "ai_policy-faye",
+      "source": "ai_policy",
+      "target": "faye",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "primary" }
+    },
+    {
+      "id": "ai_policy-laura",
+      "source": "ai_policy",
+      "target": "laura",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "secondary" }
+    },
+    {
+      "id": "robotics-leadership",
+      "source": "robotics_room",
+      "target": "cindy",
+      "type": "smoothstep",
+      "data": { "type": "responsible_for", "role": "leadership" }
+    },
+    {
+      "id": "success-all",
+      "source": "success_metrics",
+      "target": "flint_ai_training",
+      "type": "smoothstep",
+      "data": { "type": "measures", "role": "evaluation" }
+    },
+    {
+      "id": "success-microbit",
+      "source": "success_metrics",
+      "target": "microbit_scheme",
+      "type": "smoothstep",
+      "data": { "type": "measures", "role": "evaluation" }
+    },
+    {
+      "id": "success-minecraft",
+      "source": "success_metrics",
+      "target": "minecraft_challenge",
+      "type": "smoothstep",
+      "data": { "type": "measures", "role": "evaluation" }
+    }
+  ],
+  "metadata": {
+    "savedAt": "2024-10-23T20:00:00.000Z",
+    "version": "2.0",
+    "description": "Education Technology Tasks - St. Andrews International School",
+    "project_type": "educational_technology_implementation",
+    "academic_year": "2024-2025",
+    "school": "St. Andrews International School, Green Valley",
+    "group": "Cognita",
+    "features": [
+      "task_management",
+      "resource_allocation",
+      "timeline_tracking",
+      "success_metrics",
+      "stakeholder_mapping"
+    ],
+    "layers": {
+      "events": "Immediate tasks and deadlines",
+      "patterns": "Recurring processes and workflows",
+      "structures": "Organizational frameworks and systems",
+      "mental_models": "Strategic thinking and long-term vision"
+    },
+    "priorities": {
+      "high": ["Flint AI Training", "Micro:bit Scheme", "Minecraft Challenge", "Digital Wellbeing", "AI Policy", "Robotics Room"],
+      "medium": ["Curriculum Progression", "Digital Apps Booklet", "Coding Collaboration"],
+      "low": []
+    },
+    "timeline": {
+      "immediate": ["Robotics Room Setup"],
+      "term_1": ["Micro:bit Scheme planning"],
+      "december": ["Flint AI Training for leaders"],
+      "january": ["Flint AI Training for early adopters"],
+      "academic_year": ["Minecraft Challenge", "Micro:bit Competition", "Digital Wellbeing", "AI Policy"],
+      "ongoing": ["Curriculum Progression", "Digital Apps Booklet", "Coding Collaboration"]
+    },
+    "success_criteria": {
+      "flint_ai_training": "Training completed by deadline; 10 early identifiers trained",
+      "microbit_scheme": "Scheme of work produced and shared; improved KS2-KS3 transition",
+      "curriculum_progression": "Progression documents updated with digital learning dimensions",
+      "digital_apps_booklet": "Digital apps booklet shared with all staff",
+      "minecraft_challenge": "Minecraft challenge launched; increased student participation",
+      "microbit_competition": "Primary Micro:bit competition successfully completed with other schools",
+      "coding_collaboration": "Third coding collaboration project established",
+      "digital_wellbeing": "Digital wellbeing curriculum mapped; dashboards tested; recognition applied",
+      "ai_policy": "AI Policy drafted and reviewed; Maturity Scale established",
+      "robotics_room": "Robotics room established and in use"
+    }
+  }
+}
