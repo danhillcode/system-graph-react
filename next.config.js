@@ -6,7 +6,13 @@ const nextConfig = {
     unoptimized: true
   },
   // Enable static export for easy deployment
-  distDir: 'out'
+  distDir: 'out',
+  // Explicitly set the root directory
+  experimental: {
+    turbo: {
+      root: '/Users/dhill/system-graph-react'
+    }
+  }
 }
 
 module.exports = nextConfig
